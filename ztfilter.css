@@ -1,0 +1,60 @@
+/**
+ * Tabular products filter: module for PrestaShop 1.4
+ *
+ * @author     zapalm <zapalm@ya.ru>
+ * @copyright (c) 2010, zapalm
+ * @link      http://prestashop.modulez.ru/en/frontend-features/12-tabular-products-filter-for-prestashop.html The module's homepage
+ * @license   http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+
+div.ztfilter-content {
+}
+
+table.ztfilter-table {
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+th.ztfilter-table {
+    padding-left: 0;
+    background: lightgrey none;
+}
+
+select.ztfilter-sel-column {
+    margin-left: 0.3em;
+    margin-top: 0.1em;
+    max-width: 110px;
+}
+
+div.ztfilter-color-pick {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #666;
+}
+
+.ztfilter-opt-color {
+    background: #FFFFCC;
+}
+
+form.ztfilter-fm {
+    display: inline;
+}
+
+div.ztfilter-header {
+    color: #374853;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 21px;
+    line-height: 1.6em;
+    padding-left: 0.5em;
+}
+
+div.ztfilter-footer {
+    color: #374853;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 21px;
+    line-height: 1.6em;
+    padding-left: 0.5em;
+}
